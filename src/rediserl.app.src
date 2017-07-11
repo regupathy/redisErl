@@ -1,0 +1,12 @@
+{application, rediserl,
+ [
+  {description, "Redis Manager"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+%%   {mod, {redis,[]}},
+  {env, []}
+ ]}.
